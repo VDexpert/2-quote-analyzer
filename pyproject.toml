@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "coursework-3"
+version = "0.1.0"
+description = ""
+authors = ["<Всеволод Деменьшин> <<vdexpert11@yandex.ru>>"]
+readme = "README.md"
+packages = [{include = "coursework_3"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.scripts]
+get-sorted = "coursework_3.starter_sort:starter"
+get-banch = "coursework_3.starter_search_date:starter"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
