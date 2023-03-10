@@ -75,7 +75,7 @@ def select_sorted(sort_columns, limit="all", order='asc', filename='dump.csv'):
     columns = {"date": 0, "open": 1, "high": 2, "low": 3, "close": 4, "volume": 5}
     index_columns = sort_columns[0]
 
-    with open("coursework_3/all_stocks_5yr.csv", "r") as file:
+    with open("quote-analyzer/all_stocks_5yr.csv", "r") as file:
         reader = csv.reader(file)
         list_reader = []
         i = 0
